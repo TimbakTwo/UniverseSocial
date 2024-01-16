@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #18191A;
+    margin: 0;
+}
+
+header {
+    background-color: #242526;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__container--one {
+    gap: 10px;
+    margin-left: 16px; 
+}
+
+.logo {
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.searchInput::placeholder {
+    text-align: center;
+}
+
+.searchInput {
+    width: 240px;
+    height: 40px;
+    background-color: #3A3B3C;
+    border-radius: 50px;
+    border: 0;
+    font-weight: 900;
+}
+
+.header__container--two {
+    color: rgb(176, 179, 184);
+    display: flex;
+}
+
+.header__container--two > *{
+    height: 35px;
+    width: 35px;
+}
+
+.header__container--two__childLogo {
+    width: 129.59px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header__container--two__childLogo > * {
+    height: 35px;
+    width: 35px;
+}
+
+.header__container--two__childLogo:hover {
+    background: #3A3B3C;
+    cursor: pointer;
+}
+
+.header__container--three__logoContainer {
+    color: rgb(228, 230, 235);
+    height: 40px;
+    width: 40px;
+    background-color: #3B3D3F;
+    border-radius: 50%;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__container--three__logoContainer:hover {
+    background: #4E4E4F;
+    cursor: pointer;
+}
+    
+
+
+.header__container--three__logoContainer > * {
+    height: 25px;
+    width: 25px;
+}
+
